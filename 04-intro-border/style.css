@@ -1,0 +1,25 @@
+body{
+    background-color:palegreen ;
+    margin: 0;
+}
+
+div {
+    background-color: paleturquoise;
+    /*arriba,derecha,abajo,izquierda*/
+    margin: 4% 25% 3% 10%;
+    padding: 0 5%;
+    /*border radius si lo ponemos en pixeles*/
+    border-radius: 10px;
+}
+ 
+div p {
+     color: rebeccapurple;
+}
+
+p {
+    color: orangered;
+}
+ /*el orden en el css no afecta a los estilos,exepto que tengan el mismo valor de especificidad*/
+.lorem {
+    color: peru;
+}
